@@ -20,6 +20,13 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
+  """Returns a value converted from Fahrenheit to Celsius.
+  -----Parameter-----
+  temp_fahrenheit : int or float
+    
+  -----Return-----
+  converted_temp : float  
+  """
   converted_temp=(temp_fahrenheit-32)/1.8
   return converted_temp
 

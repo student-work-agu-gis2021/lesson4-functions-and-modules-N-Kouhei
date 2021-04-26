@@ -69,7 +69,8 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 import temp_functions
 temp_classes=[]
 for temp in temp_data:
-  temp_classes.append(temp_functions.temp_classifier(temp_functions.fahr_to_celsius(temp)))
+  temp_celsius=temp_functions.temp_classifier(temp_functions.fahr_to_celsius(temp))
+  temp_classes.append(temp_celsius)
 
 # #### Part 2 (continues)
 # 
@@ -101,7 +102,7 @@ assert type(temp_classes) == list
 # Check that required variables exists and print their value (check manually that the answers make sense!):
 
 # CAUTION! Don't edit this line starts
-
+print(zeros,ones,twos,threes)
 # CAUTION! Don't edit this line ends
 
 # ### Check your code
@@ -110,7 +111,7 @@ assert type(temp_classes) == list
 # - If you have any comments and concerns at this point, you can write them below:
 
 # YOUR ANSWER HERE. Write your answer as comments (with #)
-#
+#I have no concerns at the moment.
 #
 #
 #

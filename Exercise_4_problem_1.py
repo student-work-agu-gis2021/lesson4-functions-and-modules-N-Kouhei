@@ -26,7 +26,6 @@ def fahr_to_celsius(temp_fahrenheit):
 print("48° Fahrenheit is ",fahr_to_celsius(48), "Celsius.")
 print("71° Fahrenheit is ",fahr_to_celsius(71), "Celsius.")
 
-
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:

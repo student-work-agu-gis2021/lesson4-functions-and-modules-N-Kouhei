@@ -48,8 +48,10 @@ print("71° Fahrenheit is ",fahr_to_celsius(71), "Celsius.")
 #   
 # Write your answers below:
 
+
 # YOUR ANSWER HERE. Write your answers as comments
-#
+#1. Yes.
+#2. Once a function has been defined, it can be used repeatedly.So, using functions has benefits which can simplify program.
 #
 #
 #

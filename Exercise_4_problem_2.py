@@ -26,6 +26,20 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
+  """
+  Return values which grouped by Celsius value.
+  -----Parameter-----
+  temp_celsius : float
+  -----Return-----
+  0 : int
+   when temp_celsius < -2
+  1 : int
+   when -2<= temp_celsius < 2
+  2 : int
+   when 2 <= temp_celsius < 15
+  3 : int
+  when 15 <= temp_celsius
+  """
   if temp_celsius<-2:
     return 0
   elif -2<=temp_celsius<2:

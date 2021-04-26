@@ -49,6 +49,7 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
               30, 30, 30, 30, 28, 28]
 
 
+
 # #### Part 2 (continues)
 # 
 # 2. Import the `fahr_to_celsius` and `temp_classifier` functions from your `temp_functions.py` 

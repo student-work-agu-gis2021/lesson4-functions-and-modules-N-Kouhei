@@ -85,6 +85,7 @@ zeros=temp_classes.count(0)
 ones=temp_classes.count(1)
 twos=temp_classes.count(2)
 threes=temp_classes.count(3)
+
 print("0 is ",zeros,"times.")
 print("1 is ",ones,"times.")
 print("2 is ",twos,"times.")

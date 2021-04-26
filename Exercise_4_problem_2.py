@@ -73,9 +73,9 @@ print("ok :)")
 #  - Does your function has an informative dosctring?
 
 # YOUR ANSWER HERE. Write your answer as comments
-#
-#
-#
+#1. Yes
+#2. Yes 
+#3. Yes
 #
 #
 # YOUR ANSWER ENDS HERE

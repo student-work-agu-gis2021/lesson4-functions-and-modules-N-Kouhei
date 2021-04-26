@@ -79,6 +79,7 @@ for temp in temp_data:
 #     2. Count and assign to each variable how many times values 0, 1, 2, and 3 are present in the `temp_classes` list and print out the results below. In other words, assign the value of how many time `0` is in the list to the variable `zeros`, and so on. 
 #   
 
+
 # YOUR CODE HERE
 zeros=0
 ones=0

@@ -66,6 +66,10 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 
 # YOUR CODE HERE
+import temp_functions
+temp_classes=[]
+for temp in temp_data:
+  temp_classes.append(temp_functions.temp_classifier(temp_functions.fahr_to_celsius(temp)))
 
 # #### Part 2 (continues)
 # 
@@ -76,7 +80,25 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 #   
 
 # YOUR CODE HERE
+zeros=0
+ones=0
+twos=0
+threes=0
+for temp in temp_classes:
+  if temp_classes[temp]==0:
+    zeros+=1
+  elif temp_classes[temp]==1:
+    ones+=1
+  elif temp_classes[temp]==2:
+    twos+=1
+  else:
+    threes+=1
 
+
+print("0 is ",zeros,"times.")
+print("1 is ",ones,"times.")
+print("2 is ",twos,"times.")
+print("3 is ",threes,"times.")
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
 # ### Problem 3 tests
@@ -88,7 +110,7 @@ assert type(temp_classes) == list
 # Check that required variables exists and print their value (check manually that the answers make sense!):
 
 # CAUTION! Don't edit this line starts
-print(zeros,ones,twos,threes)
+
 # CAUTION! Don't edit this line ends
 
 # ### Check your code

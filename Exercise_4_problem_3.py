@@ -81,21 +81,10 @@ for temp in temp_data:
 
 
 # YOUR CODE HERE
-zeros=0
-ones=0
-twos=0
-threes=0
-for temp in temp_classes:
-  if temp_classes[temp]==0:
-    zeros+=1
-  elif temp_classes[temp]==1:
-    ones+=1
-  elif temp_classes[temp]==2:
-    twos+=1
-  else:
-    threes+=1
-
-
+zeros=temp_classes.count(0)
+ones=temp_classes.count(1)
+twos=temp_classes.count(2)
+threes=temp_classes.count(3)
 print("0 is ",zeros,"times.")
 print("1 is ",ones,"times.")
 print("2 is ",twos,"times.")

@@ -2,8 +2,10 @@
 # Exercise 4 - 
 
 YOUR NAME: (Please write your name here)
+Kouhei Nakamizo
 
 STUDENT NUMBER: (Please write your student number here)
+15719065
 
 The exercise for this week is meant to help you to understand functions and modules in Python.
 Below you have a series of problems in which you are asked to edit the python files and write the code necessary to produce the desired results.

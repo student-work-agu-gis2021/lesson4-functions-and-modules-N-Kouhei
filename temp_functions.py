@@ -9,8 +9,7 @@ def fahr_to_celsius(temp_fahrenheit):
   converted_temp=(temp_fahrenheit-32)/1.8
   return converted_temp
 
-print("48° Fahrenheit is ",fahr_to_celsius(48), "Celsius.")
-print("71° Fahrenheit is ",fahr_to_celsius(71), "Celsius.")
+
 
 def temp_classifier(temp_celsius):
   """
